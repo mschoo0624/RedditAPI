@@ -1,12 +1,30 @@
-# React + Vite
+# Reddit API App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React application built with Vite. The app interacts with the Reddit API to fetch and display data dynamically. It uses modern React features and is optimized for fast development and performance.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React with Vite**: Fast development environment with hot module replacement (HMR).
+- **Reddit API Integration**: Fetch and display data from the Reddit API.
+- **Modern JavaScript**: Built with ES6+ features and JSX.
+- **CSS Styling**: Custom styles applied via `style.css`.
 
-## Expanding the ESLint configuration
+## Project Structure
+redditAPI/ ├── public/ │ └── index.html # Entry HTML file ├── src/ │ ├── App.jsx # Main React component │ ├── main.jsx # ReactDOM rendering logic │ ├── style.css # Global styles ├── package.json # Project dependencies and scripts ├── vite.config.js # Vite configuration └── README.md # Project documentation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (version 16 or higher)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/redditAPI.git
+   cd redditAPI

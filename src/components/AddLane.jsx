@@ -40,7 +40,7 @@ function AddLane({ onAdd }) {
                 }
             }}
         />
-        <button onClick={handleAdd}>Add Lane</button>
+        <button onClick={handleAppPost}>Add Lane</button>
         {error && <p className="error-msg">{error}</p>}
         </div>
     );
